@@ -41,7 +41,7 @@ from sugar3.graphics import style
 from sugar3 import profile
 from sugar3.datastore import datastore
 
-from dbus.gi_service import TelepathyGLib
+from gi.repository import TelepathyGLib
 import dbus
 from dbus.service import signal
 from dbus.gi_service import ExportedGObject
